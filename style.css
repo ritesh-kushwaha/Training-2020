@@ -1,0 +1,129 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding-top:100px;
+}
+#content{
+    min-height: 600px;
+}
+
+#banner_image {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg_1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+#item_list {
+    padding-top: 50px;
+}
+
+#cameras:before, #watches:before, #shirts:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+
+.footer {
+    position: fixed;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0px;
+    width: 100%;
+}
+.navbar-brand{
+    font-size:20px;
+}
+
+/* login.html */
+
+.login-signup{
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    float: center;
+    width: 380px;   
+}
+.login{
+    padding-bottom: 62px;
+}
+.btn-primary{
+    font-size: 15px;
+    margin-bottom: 60px;
+    float: left;
+}
+
+/* products.html */
+.products{
+    position: relative;
+    margin-bottom: 50px;
+}
+.setting{
+    padding-bottom: 140px;
+}
+
+/* cart.html */
+.cart{
+    padding-bottom: 215px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+/* success.html */
+.success{
+    padding-bottom: 129px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.suc{
+    color: #fff;
+    background-color: #5cb85c
+}
+/* Cart Empty Button */
+#btnEmpty {
+    
+	background-color: #ffffff;
+	border: #d00000 1px solid;
+	padding: 5px 10px;
+	color: #d00000;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.emptycart {
+    padding-bottom: 350px;
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+}
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+    }
+}
+
+.remove_item_link{
+    color:#eaeaf1;
+}
